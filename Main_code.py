@@ -38,7 +38,7 @@ for x in range(0,len(l1)):
     l2.append(0)
 
 # TESTING DATA df -------------------------------------------------------------------------------------
-df=pd.read_csv(r"C:\Users\vibhor\Desktop\ai project\Disease-prediction-using-Machine-Learning\Training.csv")
+df=pd.read_csv(r"paste Training.csv") #--------------paste Traning.csv file loaction here
 
 df.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
@@ -59,7 +59,7 @@ np.ravel(y)
 # print(y)
 
 # TRAINING DATA tr --------------------------------------------------------------------------------
-tr=pd.read_csv(r"C:\Users\vibhor\Desktop\ai project\Disease-prediction-using-Machine-Learning\Testing.csv")
+tr=pd.read_csv(r"paste here Testing.csv") #--------------paste Testing.csv file loaction here
 tr.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
 'Migraine':11,'Cervical spondylosis':12,
